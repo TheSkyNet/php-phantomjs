@@ -13,11 +13,11 @@
     ],
     "minimum-stability": "stable",
     "require": { 
-        "symfony/config": "~2.3|~3.0",
-        "symfony/dependency-injection": "~2.3|~3.0",
+        "symfony/config": "~2.3|~3.0|~3.0|~4.0|~5.0|~6.0",
+        "symfony/dependency-injection": "~2.3|~3.0|~3.0|~4.0|~5.0|~6.0",
         "symfony/filesystem": "~2.3|~3.0",
         "symfony/yaml": "~2.3|~3.0|~4.0|~5.0|~6.0",
-        "twig/twig": "^3.3.8",
+        "twig/twig": "*",
         "jakoch/phantomjs-installer": "2.1.1-p08"
     },
  
