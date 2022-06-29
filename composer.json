@@ -1,5 +1,5 @@
 {
-    "name": "jonnyw/php-phantomjs",
+    "name": "theskynet/php-phantomjs",
     "description": "A PHP wrapper for loading pages through PhantomJS",
     "keywords": ["PhantomJS", "Testing", "Headless Browser"],
 	"type": "library",
@@ -12,20 +12,15 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {
-        "php": ">=5.4.0",
+    "require": { 
         "symfony/config": "~2.3|~3.0",
         "symfony/dependency-injection": "~2.3|~3.0",
         "symfony/filesystem": "~2.3|~3.0",
         "symfony/yaml": "~2.3|~3.0",
-        "twig/twig": "~1.16",
+        "twig/twig": "^3.3.8",
         "jakoch/phantomjs-installer": "2.1.1-p08"
     },
-    "require-dev": {
-        "phpunit/phpunit": "~4.0",
-        "zendframework/zendpdf": "~2.0",
-        "smalot/pdfparser": "~0.9"
-    },
+ 
     "autoload": {
         "psr-0": {
             "JonnyW\\PhantomJs\\": "src"
